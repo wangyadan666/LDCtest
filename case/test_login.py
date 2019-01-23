@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
     def test_login(self):
 
         # 从excel文件中读取数据
-        workbook = xlrd.open_workbook(r'D:\login.xlsx')
+        workbook = xlrd.open_workbook(r'C:\dandan\login.xlsx')
         sheet1 = workbook.sheet_by_index(0)  # sheet索引从0开始
         # 获取sheet1的第一行的第一个单元格的内容
         username1 = int(sheet1.row(1)[0].value)
