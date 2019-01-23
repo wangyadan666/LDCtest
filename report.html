@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>自动化测试报告：</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-01-23 14:23:38</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:04.853030</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-01-23 15:49:54</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:10.531435</p>
+<p class='attribute'><strong>Status:</strong> Pass 1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -221,65 +221,26 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>unittest.loader._FailedTest</td>
+<tr class='passClass'>
+    <td>test_login.Test</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_login</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: ImportError: Failed to import test module: test_login
-Traceback (most recent call last):
-  File "C:\Users\abrain\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 428, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "C:\Users\abrain\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 369, in _get_module_from_name
-    __import__(name)
-  File "C:\dandan\LDCtest\case\test_login.py", line 4, in &lt;module&gt;
-    import xlrd
-ModuleNotFoundError: No module named 'xlrd'
-
-ImportError: Failed to import test module: test_login
-Traceback (most recent call last):
-  File "C:\Users\abrain\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 428, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "C:\Users\abrain\AppData\Local\Programs\Python\Python36-32\lib\unittest\loader.py", line 369, in _get_module_from_name
-    __import__(name)
-  File "C:\dandan\LDCtest\case\test_login.py", line 4, in &lt;module&gt;
-    import xlrd
-ModuleNotFoundError: No module named 'xlrd'
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
